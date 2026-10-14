@@ -1,0 +1,47 @@
+PARAGRÁFOS E QUEBRAS
+
+-h1 = sginifica cabeçalho
+|
+-p = paragrafo 
+|
+-hr(horizon row) = insere uma linha horizontal
+|
+---> todos esses tres sao marcacões ou tags
+
+br(break row) = server para quebrar a linha
+de um paragrafo em alguma parte de um texto
+para aparecer o sinbolo maior que e menor que 
+-->&lt;(less than) = e igual ao < so que aparecerá no site será esse símbolo
+    \--> isso e adicionado no código
+--> &gt;(greater thaw = e igual ao > 
+
+SÍMBOLOS E EMOJI  NO SEU SITE
+
+<!--Ola--> = indica indica que é um comentário  
+     \
+      --- > isso é o comentário
+
+--->&reg; = e inserido o símbolo de marca registrada ®
+--->&copy; = e inserido o simbolo de copyringht ©
+--->&trade; = e inserido o simbolo de marca registrada em inglês ™
+--->&euro; = e inserido o simbolo da moeda chamada euro € (europa)
+--->&pound; = e inserido o simbolo da moeda chamada libra £ (reino unido entre outros locais)
+--->&yan; = e inserido o simboloo da moeda chamada yen ou iene ¥ (japão)
+--->&cent; = e inserido o simbolo dos centavos americanos que é uma
+moeda ¢ (estados unidos)
+--->&delta; = e inserido o simbolo do delta(letra grega)em minusculo
+δ
+--->&Delta; = e inserido o simbolo do delta em maiusculo Δ 
+--->&uparrow = e inserido o simbolo da seta para cima ↑
+
+Emoji
+Para adicionar os emojis em um site a melhor forma e procurando
+o seu codigo na internet, evitando que venha ocasionar de ter algum
+erro em algum navegador, para isso:
+1 - acesse o site do emojipedia.org(site mais confiavel)
+2 - procure pela a barra de pesquisa e coloque o nome do emoji(se 
+nao souber procure o emoji que voce queira)
+3 - apos clicar no emoji procure por "informação técnica" e clique
+4 - em pontos de codigo copie apenas o que tem depois do mais
+5 - no codigo entre os paragrafos que voce queira coloque $#xcodigo;(
+nessa parte "codigo" coloque o codigo que voce copiou do site)

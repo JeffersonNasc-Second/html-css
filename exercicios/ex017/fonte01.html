@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <link rel="shortcut icon" href="dragon-redflame.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas 
+            cm(centímetros), mm(milímetros), in(polegadas), px(pixels), pt(pontos), pc(paicas)
+
+            Medidas Relativas
+            em(tamanho atual da fonte), rem(tamanho atual da fonte pelo root), vw(porcentagem da view port), vh(altura da view port) %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+        }
+
+        h1 {
+            /* shorthand font
+            
+            - font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis excepturi consequatur accusantium quidem soluta ratione ut illo provident doloribus rerum. Unde asperiores optio dolorem commodi ex dolorum suscipit quam provident? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet repudiandae voluptate officia dolorem minima, nemo voluptatibus eligendi praesentium cupiditate magni aut ab rerum ullam illum necessitatibus. Officiis voluptatem nam exercitationem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum vitae quidem incidunt similique saepe alias provident consequatur nulla corporis perspiciatis delectus minima sed ullam voluptatem, expedita maiores? Laudantium, vero ex.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, odio maxime consectetur nulla atque quia velit harum obcaecati perferendis sed. Dolor magnam laboriosam dolore unde, aperiam natus quo assumenda magni!</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut modi minus repellat. Rerum minima ea mollitia quibusdam. Fugiat, iure. Nemo ad eius provident non rerum vel, perferendis mollitia deleniti illum!</p>
+</body>
+</html>
