@@ -55,6 +55,10 @@ section.normal {
 section.imagem {
     background-color: rgb(51, 51, 51);
     color: rgb(255, 255, 255);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section {
@@ -69,20 +73,17 @@ section.imagem > p {
     display: inline-block;
     width: 400px;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.253);
-    text-shadow: 1px 1px 0;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
 }
 
 section#img01 {
     background-image: url('imagens/background001.jpg');
-    background-position: right center;
-    background-size: cover;
+    
 }
 
 section#img02 {
     background-image: url('imagens/background002.jpg');
-    background-position: right center;
-    background-size: cover;
 }
 
 footer {
